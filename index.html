@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>sports</title>
+</head>
+<body>
+
+    <h1 class="visually-hidden">Sport types</h1>
+
+    <div class="container sports">
+
+        <h2 class="heading">Qaysi sport turiga qiziqasiz?</h2>
+
+        <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+
+            <label class="label">
+
+                <input class="visually-hidden"  type="radio" name="sports" value="tennis">
+                <span class="span span-tennis"></span>
+
+                <p class="sport-type-desc">Stol tennisi</p>
+            </label>
+
+            <label class="label">
+
+                <input class="visually-hidden" type="radio" name="sports" value="basketball">
+                <span class="span span-basketball"></span>
+
+                <p class="sport-type-desc">Basketbol</p>
+            </label>
+
+            <label class="label">
+
+                <input class="visually-hidden" type="radio" name="sports" value="valleyball">
+                <span class="span span-valleyball"></span>
+
+                <p class="sport-type-desc">Voleybol</p>
+            </label>
+
+            <label class="label">
+
+                <input class="visually-hidden" type="radio" name="sports" value="hokkey"  disabled >
+                <span class="span span-hokkey"> <img src="./images/hokkey.png" alt="hokkey" width="22" height="18"></span>
+
+                <p class="sport-type-desc  disabled-p">Hokkey</p>
+            </label>
+        </form>
+    </div>
+
+</body>
+</html>

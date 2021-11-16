@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 1.5;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* SPORT TYPES */
+
+.heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.sports {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 44px 43px 47px 43px;
+    background-color: #fff;
+    width: 437px;
+    height: 352px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-right: 16px;
+    padding: 5px;
+}
+
+input:checked + .span-tennis {
+    box-shadow: dodgerblue 0px 1px 4px, dodgerblue 0px 0px 0px 3px;
+    background-size: contain;
+    background-image: url("../images/tennis.png");
+    background-repeat: no-repeat;
+}
+
+input:checked + .span-basketball {
+    box-shadow: dodgerblue 0px 1px 4px, dodgerblue 0px 0px 0px 3px;
+    background-size: contain;
+    background-image: url("../images/basketball.png");
+    background-repeat: no-repeat;
+}
+
+input:checked + .span-valleyball {
+    box-shadow: dodgerblue 0px 1px 4px, dodgerblue 0px 0px 0px 3px;
+    background-size: contain;
+    background-image: url("../images/volleyball.png");
+    background-repeat: no-repeat;
+}
+
+input:checked + .span-hokkey {
+    box-shadow: dodgerblue 0px 1px 4px, dodgerblue 0px 0px 0px 3px;
+    background-size: contain;
+    background-image: url("../images/hokkey.png");
+    background-repeat: no-repeat;
+}
+
+.sport-type-desc {
+    margin: 0;
+    padding: 0;
+    Font-family: Rubik;
+    Font-style: Regular;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    Align: Left;
+    Vertical-align: Top;
+}
+
+.disabled-p {
+color: rgba(170, 170, 170, 1);
+}
